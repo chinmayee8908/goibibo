@@ -65,9 +65,18 @@ const Content = () => {
 
              <div style={{display:"flex",flexDirection:"column"}}> 
              <p>From</p>
-             <div className='selectButton'>  {flight.from}</div></div> 
-            <div>  <p>To</p> <div  className='selectButton'> {flight.to} </div></div>
-             <div>  <p>Departure</p> <div  className='selectButtonsmall'>{flight.departureDate}</div> </div>
+             <div className='selectButton'>  <select style={{height:"43px",border:"none",width:"150px"}}>
+                  <option>{flight.travel[0].from}</option>
+                  <option>{flight.travel[1].from}</option>
+                </select></div></div> 
+            <div>  <p>To</p> <div  className='selectButton'> <select style={{height:"43px",border:"none",width:"150px"}}>
+                  <option>{flight.travel[0].to}</option>
+                  <option>{flight.travel[1].to}</option>
+                </select> </div></div>
+             <div>  <p>Departure</p> <div  className='selectButtonsmall'><select style={{height:"43px",border:"none",width:"150px"}}>
+                  <option>{flight.travel[0].departureDate}</option>
+                  <option>{flight.travel[1].departureDate}</option>
+                </select></div> </div>
               <div>  <p>Return</p> <div  className='selectButtonsmall'><input type='date' style={{height:"43px",border:"none"}}/></div></div>
               <div>  <p>Traveller</p> <div  className='selectButtonsmall'>
                 <select style={{height:"43px",border:"none",width:"150px"}}>

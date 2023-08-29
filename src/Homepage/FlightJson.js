@@ -7,10 +7,16 @@ const flightData = [
         { "name": "indigo", "price": "3000rs", "time": "16.3hr", "description": "Low-cost carrier" },
         { "name": "airindia", "price": "4000rs", "time": "15.3hr", "description": "National carrier" }
       ],
-      "from": "Bhubaneswar",
+      "travel": [{
+        "from": "Bhubaneswar",
       "to": "Dubai",
       "price": 10000,
-      "departureDate": "31Aug"
+      "departureDate": "30Aug"
+      },
+      {"from": "hyderabad",
+      "to": "Bangalore",
+      "price": 12000,
+      "departureDate": "31Aug"}]
     },
     {
       "id": 2,
