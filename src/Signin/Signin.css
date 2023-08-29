@@ -1,0 +1,16 @@
+.signinModal{
+    height:400px ;
+    width: 400px;
+    margin-left: 45px;  
+}
+.loginButton{
+    display: flex;
+    margin-top: 70px;
+    width: 300px;
+    justify-content: center;
+ }
+ .mobileNumber{
+    border: none;
+    border-bottom: 1px solid black;
+    width:320px;
+ }

@@ -1,0 +1,33 @@
+.NavBar-Container{
+    width: 100vw;
+    display: flex;
+}
+
+.Header-Container{
+    background-color:white;
+    height: 64px;
+    width: 100vw;
+    display: flex;
+}
+.logo{
+    height: 50px;
+    width: 150px;
+
+}
+.user{
+    height: 27px;
+     width: 30px;
+    border-radius: 70px;
+   margin-right: 10px;
+   margin-top: 4px; 
+}
+.Button-Group{
+    width: 700px;
+    justify-content: space-evenly;
+    display: flex;
+    }
+    .buttons:hover{
+        cursor: pointer;
+        background-color: rgb(50, 50, 180);
+
+    }

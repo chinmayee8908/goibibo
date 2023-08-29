@@ -1,0 +1,33 @@
+.dashboard-Container{
+    background-color: rgb(21, 48, 81);
+    width: 100vw;
+    height: 400px;
+    position: relative;
+}
+.ticketBook-Container{
+    position: absolute;
+    background-color:whitesmoke;
+    width: 900px;
+    height: 400px;
+    margin-left: 18%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.selectButton{
+        width: 170px;
+    border: 1px solid blue;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.selectButtonsmall{
+    width: 70px;
+    border: 1px solid blue;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
